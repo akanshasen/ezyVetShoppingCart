@@ -2,7 +2,7 @@
 
 class ShoppingCart{
 	
-	public $products = [
+	public array $products = [
 				[ "name" => "Sledgehammer", "price" => 125.75 ],
 				[ "name" => "Axe", "price" => 190.50 ],
 				[ "name" => "Bandsaw", "price" => 562.131 ],
@@ -37,10 +37,8 @@ class ShoppingCart{
 	//error checking for completed code
 	
 	
-	
-	
-	
-	
 }
+
+echo '<pre>', print_r($products), '</pre>';
 
 ?>
